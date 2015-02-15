@@ -35,7 +35,7 @@ void ofApp::draw(){
     
     mVolumetricLine.begin();
     ofSetColor(200,100,50);
-    mVbo.draw(GL_LINE_STRIP, 0, 100); // use ofLine or ofVbo. ofMesh does not work due to oF implementation.
+    mVbo.draw(GL_LINE_STRIP, 0, 100); // use ofLine or ofVbo or ofPolyline. ofMesh does not work due to oF implementation.
     mVolumetricLine.end();
     
     mCam.end();
